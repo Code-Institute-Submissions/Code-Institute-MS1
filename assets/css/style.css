@@ -6,13 +6,19 @@ header {
     margin: 0;
 }
 
-.logo {
-    background: url("../assets/images/baby-abbas-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+.wrap {
+    max-width: 960px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.links {
+    list-style-type: none;
+    float: right;
+}
+header ul.links > li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 13px;
+    list-style-type: none;
 }
