@@ -17,7 +17,7 @@ body {
     width: 100%;
     background-color: #78716C;
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ body {
 
 .nav-item a {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 1px 15px;
     text-decoration: none;
     color: #fff;
 }
@@ -51,10 +51,22 @@ body {
 .nav-item a:hover {
     opacity: .9;
     color: #e64d00;
-    transition: ease-in-out 0.5s;
+    transition: 0.5s ease-in-out;
 }
 
-/*--------------- Bootsrap button in header */
+/*--------------- Bootstrap Dropdown Button + Items (Took me awhile to find te active conditions)*/
+
+.btn {
+    display: flex;
+}
+
+.dropdown-item {
+    color: #78716C;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #e64d00;
+}
+
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary.focus,
@@ -63,8 +75,11 @@ body {
     border-color: #e64d00;
 }
 
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle
 .dropdown-item {
-    color: #78716C;
+    background-color: #e64d00;
+    border-color: #e64d00;
 }
 /*--------------- Media Screen Size Adjustments */
 
