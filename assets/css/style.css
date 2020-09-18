@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.5s ease;
 }
 
 .logo {
@@ -30,6 +31,7 @@ body {
 .logo img {
     padding: 5px;
     vertical-align: middle;
+    color: #fff;
 }
 
 .nav-links {
@@ -43,10 +45,37 @@ body {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
-@media screen and (max-width:400px){
+
+.nav-item a:hover {
+    opacity: .9;
+    color: #e64d00;
+    transition: ease-in-out 0.5s;
+}
+
+/*--------------- Bootsrap button in header */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary.focus,
+.btn-secondary:focus {
+    background-color: #e64d00;
+    border-color: #e64d00;
+}
+
+.dropdown-item {
+    color: #78716C;
+}
+/*--------------- Media Screen Size Adjustments */
+
+@media screen and (max-width:943px){
         .nav-item{
-            font-size: 14px;
+            font-size: 16px;
+        }
+}
+
+@media screen and (max-width:700px){
+        .nav-item{
+            font-size: 12px;
         }
 }
