@@ -155,9 +155,9 @@ body {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-/*--------------- Section */
+/*--------------- Section Part 1 */
 
-.background {
+.hero-background {
     background: url("../images/orangeclimb1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -182,6 +182,26 @@ body {
     font-weight: 400;
     font-size: 3em;
 }
+
+/*--------------- Section Part 2 */
+
+.icon-background {
+    background-color: #e64d00;
+}
+
+.column-icon span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #78716C;
+    padding-top: 25px;
+}
+
+/*--------------- Section Part 3 */
+
 /*--------------- Footer */
 
 
@@ -194,7 +214,7 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
-
+}
 /*--------------- Media Screen Size Adjustments */
 
 @media screen and (max-width:943px){
