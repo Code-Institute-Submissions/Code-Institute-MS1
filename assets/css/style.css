@@ -202,6 +202,15 @@ body {
 
 /*--------------- Section Part 3 */
 
+.text-block {
+    color: #78716C;
+    margin-top: 8px;
+}
+
+.text-block h3 {
+    text-transform: uppercase;
+}
+
 /*--------------- Footer */
 
 
