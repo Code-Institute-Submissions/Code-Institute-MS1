@@ -200,17 +200,41 @@ body {
     padding-top: 25px;
 }
 
+.column-icon h3, p {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 /*--------------- Section Part 3 */
 
 .text-block {
-    color: #78716C;
+    color: #fafafa;
+    background-color: #78716C;
     margin-top: 8px;
+    margin: 8px;
+    
+}
+
+.text-block p, h3 {
+    display: block;
+    width: 100%;
+    text-align: left;
 }
 
 .text-block h3 {
     text-transform: uppercase;
 }
 
+.text-block p {
+    font-size: 15px;
+}
+
+.google-map {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
 /*--------------- Footer */
 
 
