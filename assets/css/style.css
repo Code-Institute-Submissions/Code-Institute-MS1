@@ -170,17 +170,32 @@ body {
 .cover-text {
     font-family: "Montserrat", "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 2em;
     text-transform: uppercase;
+}
+
+.cover-text h2 {
+    font-size: 1.5em;
+}
+
+.cover-text h1 {
+    font-size: 3em;
+}
+
+.cover-text h2,
+.cover-text p {
+    padding: 10px 8px 0 8px;
 }
 
 .brand-font {    
     text-transform: lowercase;
     color: #fafafa;
-    text-shadow: 1px 1px #e64d00;
+    /*-- text-shadow: 1px 1px #e64d00; Changed my mind.--*/
     font-family: "Montserrat", "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 3em;
+    display: inline-block;
+    background: rgba(120,113,108,0.5);
+    border-radius: 25px;
+    padding: 0 8px 0 8px;
 }
 
 /*--------------- Section Part 2 */
