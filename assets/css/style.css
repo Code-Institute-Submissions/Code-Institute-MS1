@@ -306,7 +306,6 @@ body {
 
 
 .footer {
-    width: 100%;
     background-color: #e64d00;
     padding-left: 20px;
     padding-right: 20px;
@@ -316,11 +315,22 @@ body {
     transition: all 0.5s ease;
 }
 
+.sign-up-prompt{
+    margin-top: 20px;
+}
+
 .sign-up-prompt h2,
 .sign-up-prompt p {
     display: block;
     width: 100%;
     text-align: center;
+}
+
+.sign-up-prompt h2 {
+    font-size: 1.5em;
+}
+.sign-up-prompt p {
+    font-size: 15px;
 }
 
 .sign-up-buttons {
@@ -332,11 +342,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-}
-
-.btn {
-    margin-right: 16px;
-    margin-left: 16px
 }
 
 .btn-danger {
