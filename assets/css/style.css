@@ -200,7 +200,8 @@ body {
     padding-top: 25px;
 }
 
-.column-icon h3, p {
+.column-icon h3,
+.colum-icon p {
     display: block;
     width: 100%;
     text-align: center;
@@ -254,6 +255,29 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
+}
+
+.sign-up-prompt h2,
+.sign-up-prompt p {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.sign-up-buttons {
+    text-align: center;
+}
+
+.form-inline {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.btn {
+    margin-right: 16px;
+    margin-left: 16px
 }
 /*--------------- Media Screen Size Adjustments */
 
