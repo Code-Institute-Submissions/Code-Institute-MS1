@@ -181,6 +181,10 @@ body {
     font-size: 3em;
 }
 
+.cover-text p {
+    font-size: 0.75em;
+}
+
 .cover-text h2,
 .cover-text p {
     padding: 10px 8px 0 8px;
@@ -198,6 +202,34 @@ body {
     padding: 0 8px 0 8px;
 }
 
+.button-hero button {
+    margin: 80px 8px 0 8px;
+}
+
+.btn-light {
+    color: #fafafa;
+    background-color: #e64d00;
+    border-color: #e64d00;
+}
+
+.btn-light:hover {
+    color: #fafafa;
+    background-color: #f1621a;
+    border-color: #f1621a;
+}
+
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show > .btn-light.dropdown-toggle {
+    color: #fafafa;
+    background-color: #f1621a;
+    border-color: #f1621a;
+}
+
+.btn-light.focus, .btn-light:focus {
+    color: #fafafa;
+    background-color: #f1621a;
+    border-color: #f1621a;
+    box-shadow: 0 0 0 .2rem rgba(216,217,219,.5);
+}
 /*--------------- Section Part 2 */
 
 .icon-background {
@@ -216,10 +248,18 @@ body {
 }
 
 .column-icon h3,
-.colum-icon p {
-    display: block;
+.column-icon p {
+    display: inline-block;
     width: 100%;
     text-align: center;
+}
+
+.column-icon h3 {
+    font-size: 1em;
+}
+
+.column-icon p {
+    font-size: 0.75em;
 }
 
 /*--------------- Section Part 3 */
@@ -258,6 +298,10 @@ body {
     width: 100%;
     text-align: left;
 } 
+
+.button-info button {
+    margin: 55px 0 0 0;
+}
 /*--------------- Footer */
 
 
@@ -294,6 +338,32 @@ body {
     margin-right: 16px;
     margin-left: 16px
 }
+
+.btn-danger {
+    color: #fafafa;
+    background-color: #78716C;
+    border-color: #78716c;
+}
+
+.btn-danger:hover {
+    color: #fafafa;
+    background-color: #a0968f;
+    border-color: #a0968f;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show > .btn-danger.dropdown-toggle {
+    color: #fafafa;
+    background-color: #a0968f;
+    border-color: #a0968f;
+}
+
+.btn-danger.focus, .btn-danger:focus {
+    color: #fafafa;
+    background-color: #a0968f;
+    border-color: #a0968f;
+    box-shadow: 0 0 0 .2rem rgba(216,217,219,.5);
+}
+
 /*--------------- Media Screen Size Adjustments */
 
 @media screen and (max-width:943px){
