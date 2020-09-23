@@ -155,9 +155,9 @@ body {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-/*--------------- Section Part 1 */
+/*--------------- index.html section Part 1 */
 
-.hero-background {
+.hero-background-one {
     background: url("../images/orangeclimb1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -169,7 +169,6 @@ body {
 
 .cover-text {
     font-family: "Montserrat", "Roboto", sans-serif;
-    font-weight: 300;
     text-transform: uppercase;
 }
 
@@ -187,6 +186,7 @@ body {
 
 .cover-text h2,
 .cover-text p {
+    font-weight: 300;
     padding: 10px 8px 0 8px;
 }
 
@@ -230,7 +230,7 @@ body {
     border-color: #f1621a;
     box-shadow: 0 0 0 .2rem rgba(216,217,219,.5);
 }
-/*--------------- Section Part 2 */
+/*--------------- index.html section Part 2 */
 
 .icon-background {
     background-color: #e64d00;
@@ -262,7 +262,7 @@ body {
     font-size: 0.75em;
 }
 
-/*--------------- Section Part 3 */
+/*--------------- index.html section Part 3 */
 
 .text-block {
     color: #fafafa;
@@ -367,6 +367,40 @@ body {
     background-color: #a0968f;
     border-color: #a0968f;
     box-shadow: 0 0 0 .2rem rgba(216,217,219,.5);
+}
+
+/*--------------- join.html */
+/*--------------- join.html section part 1 */
+
+.join-us-background {
+    background-color: #e64d00;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+    padding: 10px 15px 10px 15px ;
+}
+
+.join-cover-text {
+    font-family: "Montserrat", "Roboto", sans-serif;
+}
+
+.join-cover-text h2 {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+/*--------------- join.html section part 2 */
+
+.climb-options-background {
+    background: url("../images/orangeclimb3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100px;
+    background-position-y: 80%;
 }
 
 /*--------------- Media Screen Size Adjustments */
