@@ -393,15 +393,10 @@ body {
 
 /*--------------- join.html section part 2 */
 
-.climb-options-background {
-    background: url("../images/orangeclimb3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100%;
-    min-width: 100px;
-    background-position-y: 80%;
-}
+
+/*--------------- classes.html */
+/*--------------- classes.html section part 1 ^ Can inherit from join.html css */
+
 
 /*--------------- Media Screen Size Adjustments */
 
