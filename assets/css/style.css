@@ -393,7 +393,13 @@ body {
 
 /*--------------- join.html section part 2 */
 
+.day-pass {
+    background-color: #78716C;
+}
 
+.member {
+    background-color: #e64d00;
+}
 /*--------------- classes.html */
 /*--------------- classes.html section part 1 ^ Can inherit from join.html css */
 
