@@ -271,7 +271,7 @@ body {
     margin: 8px;
     max-height: 300px;
     min-height: 300px;
-    
+    border-radius: 25px;
 }
 
 .text-block p, h3 {
@@ -292,11 +292,13 @@ body {
     background-color: #78716C;
     margin: 8px;
     padding: 0 0 0 0;
+    border-radius: 25px;
 }
 .google-map iframe {
     display: block;
     width: 100%;
     text-align: left;
+    border-radius: 25px;
 } 
 
 .button-info button {
@@ -392,6 +394,9 @@ body {
 }
 
 /*--------------- join.html section part 2 */
+.climb {
+    padding: 0 0 15px 0;
+}
 
 .day-pass,
 .member {
@@ -418,24 +423,52 @@ body {
     font-size: 30px;
     font-weight: 300;
     text-shadow: 1px 1px #e64d00;
+    padding: 0 0 0 15px;
 }
 
 .member h2,
 .member h3 {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
     text-shadow: 1px 1px #78716C;
+    padding: 0 0 0 15px;
 }
 
 .day-pass p,
 .member p {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200;
+    padding: 0 0 0 15px;
 }
 
-.day-pass ul {
+#day-pass-prices,
+#gear-rental,
+#member-prices {
     list-style: none;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#member-benefits {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.button-member {
+    padding: 15px 0 0 20px;
+}
+
+.climb-options-background {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: url("../images/orangeclimb3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 98.3%;
+    background-position-y: 0%;
+    border-radius: 25px;
 }
 /*--------------- classes.html */
 /*--------------- classes.html section part 1 ^ Can inherit from join.html css */
@@ -447,10 +480,18 @@ body {
         .nav-item{
             font-size: 16px;
         }
+
+        .climb-options-background {
+            height: 250px;
+        }
 }
 
 @media screen and (max-width:700px){
         .nav-item{
             font-size: 12px;
+        }
+
+        .climb-options-background {
+            height: 250px;
         }
 }
