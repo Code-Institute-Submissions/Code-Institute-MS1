@@ -274,7 +274,8 @@ body {
     border-radius: 25px;
 }
 
-.text-block p, h3 {
+.text-block p,
+.text-block h3 {
     display: block;
     width: 100%;
     text-align: left;
@@ -282,6 +283,7 @@ body {
 
 .text-block h3 {
     text-transform: uppercase;
+    padding-top: 5px;
 }
 
 .text-block p {
@@ -302,7 +304,7 @@ body {
 } 
 
 .button-info button {
-    margin: 55px 0 0 0;
+    margin: 50px 0 0 0;
 }
 /*--------------- Footer */
 
@@ -473,6 +475,89 @@ body {
 /*--------------- classes.html */
 /*--------------- classes.html section part 1 ^ Can inherit from join.html css */
 
+/*--------------- classes.html section part 2 */
+
+.intro-bg {
+    background: url("../images/teaching.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    background-position-y: 50%;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+    min-height: 250px;
+}
+
+.classes-bg {
+    background: url("../images/climb1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    background-position-y: 60%;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+    min-height: 250px;
+}
+
+.one-two-one-bg {
+    background: url("../images/climb3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    background-position-y: 50%;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+    min-height: 250px;
+}
+
+.instructor-bg {
+    background: url("../images/handholds.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    background-position-y: 50%;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+    min-height: 250px;
+}
+
+.intro,
+.classes,
+.one-two-one,
+.instructor {
+    background:rgba(0,0,0,.5);
+    border-radius: 25px;
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0 10px 10px 10px;
+}
+
+.intro-bg:hover .intro,
+.classes-bg:hover .classes,
+.one-two-one-bg:hover .one-two-one,
+.instructor-bg:hover .instructor{
+  opacity: 1;
+}
+
+.class h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px 0 10px 0;
+}
+
+.class span {
+    background-color: #e64d00;
+    border-radius: 25px;
+    padding: 0 10px 0 10px;
+}
 
 /*--------------- Media Screen Size Adjustments */
 
