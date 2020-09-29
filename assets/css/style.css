@@ -56,9 +56,9 @@ body {
     transition: 0.5s ease-in-out;
 }
 
-/*--------------- Bootstrap Dropdown Button + Items (Took me awhile to find te active conditions)*/
+/*--------------- Bootstrap Dropdown Button + Items (Took me awhile to find the active conditions)*/
 
-.btn {
+.btn-secondary {
     display: flex;
 }
 
@@ -230,6 +230,7 @@ body {
     border-color: #f1621a;
     box-shadow: 0 0 0 .2rem rgba(216,217,219,.5);
 }
+
 /*--------------- index.html section Part 2 */
 
 .icon-background {
@@ -304,7 +305,7 @@ body {
 } 
 
 .button-info button {
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
 }
 /*--------------- Footer */
 
@@ -559,6 +560,11 @@ body {
     padding: 0 10px 0 10px;
 }
 
+.button-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*--------------- Media Screen Size Adjustments */
 
 @media screen and (max-width:943px){
@@ -569,6 +575,13 @@ body {
         .climb-options-background {
             height: 250px;
         }
+
+        .intro,
+        .classes,
+        .one-two-one,
+        .instructor {
+            opacity: 1;
+            }
 }
 
 @media screen and (max-width:700px){
@@ -579,4 +592,11 @@ body {
         .climb-options-background {
             height: 250px;
         }
+
+        .intro,
+        .classes,
+        .one-two-one,
+        .instructor {
+            opacity: 1;
+            }
 }
