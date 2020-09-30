@@ -1,21 +1,37 @@
 Welcome S-Lowes,
 
-# MS1
+# MS1 Code Institute
 
-I have decided to make a website for an imaginary climbing gym.
+I have decided to make a mock website for an imaginary climbing gym. Designed to be eye catching, responsive & accesible on different devices.
 
 ![Multi-Device MockUp](assets/images/multimedia.png)
 
-# Acknowledgment/Credits
+# Languages
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+# Credits
 
 The space to share any rescources I have used to help me build this project.
 
-- https://getbootstrap.com/ Bootstrap4.5.2: Bootstrap Library used throughout the project.
+- [Google Fonts](https://fonts.google.com/?query=Oswa): Google fonts was used to import the 'Montserrat' & 'Roboto' font.
 
-- Google Map embeded
+- [Font Awesome](https://fontawesome.com/): Font Awesome was used on various pages to add icons.
 
-- Logo created on www.ucraft.com
+- [Bootstrap4.5.2](https://getbootstrap.com/): Bootstrap Library used throughout the project.
 
-- ianlunn.github.io/hover/ Skew & Grow by Ian Lunn
+- [Google Map](https://www.google.co.uk/maps): Embeded.
 
-- https://techsini.com/multi-mockup/ For README.md
+- [Logo created on ucraft](https://www.ucraft.com/free-logo-maker): Also used in header.
+
+- [Hover.css](http://ianlunn.github.io/Hover/): Skew & Grow by Ian Lunn used in header.
+
+- [Multi Media Mockup](https://techsini.com/multi-mockup/): For the README.
+
+- [Balsamiq](https://balsamiq.com/): Balsamiq was used to create the wireframes during the design process.
+
+# Acknowledgements
+
+- My Mentor for the helpful feedback.
+- Tutor support at Code Institute for their support.
