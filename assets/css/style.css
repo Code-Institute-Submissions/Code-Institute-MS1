@@ -266,13 +266,15 @@ body {
 /*--------------- index.html section Part 3 */
 
 .text-block {
-    color: #fafafa;
-    background-color: #78716C;
+    color: #78716C;
+    background-color: #fafafa;
     margin-top: 8px;
     margin: 8px;
     max-height: 300px;
     min-height: 300px;
     border-radius: 25px;
+    border: 1px solid #78716C;
+    box-shadow: 2px 4px #78716C;
 }
 
 .text-block p,
@@ -296,6 +298,8 @@ body {
     margin: 8px;
     padding: 0 0 0 0;
     border-radius: 25px;
+    border: 1px solid #78716C;
+    box-shadow: -2px 4px #78716C;
 }
 .google-map iframe {
     display: block;
@@ -318,6 +322,7 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
+    margin: 0px;
 }
 
 .sign-up-prompt{
@@ -488,6 +493,7 @@ body {
     border-radius: 25px;
     margin: 10px 0 10px 0;
     min-height: 250px;
+    border: 1px solid #78716C;
 }
 
 .classes-bg {
@@ -500,6 +506,7 @@ body {
     border-radius: 25px;
     margin: 10px 0 10px 0;
     min-height: 250px;
+    border: 1px solid #78716C;
 }
 
 .one-two-one-bg {
@@ -512,6 +519,7 @@ body {
     border-radius: 25px;
     margin: 10px 0 10px 0;
     min-height: 250px;
+    border: 1px solid #78716C;
 }
 
 .instructor-bg {
@@ -524,6 +532,7 @@ body {
     border-radius: 25px;
     margin: 10px 0 10px 0;
     min-height: 250px;
+    border: 1px solid #78716C;
 }
 
 .intro,
