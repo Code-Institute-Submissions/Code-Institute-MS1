@@ -38,10 +38,12 @@ I have decided to make a mock website for an imaginary climbing gym. Designed to
         - [Classes Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/classes.html.png)
         - [Contact Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/contact_us.html.png)
 
-## Languages
+# Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+# Testing
 
 # Credits
 
