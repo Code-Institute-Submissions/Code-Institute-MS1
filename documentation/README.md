@@ -34,9 +34,9 @@ I have decided to make a mock website for an imaginary climbing gym. Designed to
 
 - Wireframes
     - I created Wireframes for various extra pages such as membership forms and an about us page. However these are extra pages and are not core to the websites design.
-        - [Home Page](/workspace/MS1/ms1-wireframe/index.html.png)
-        - [Climb Page](/workspace/MS1/ms1-wireframe/membership.html.png)
-        - [Classes Page](/workspace/MS1/ms1-wireframe/classes.html.png)
+        - [Home Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/index.html.png)
+        - [Climb Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/membership.html.png)
+        - [Classes Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/classes.html.png)
 
 ## Languages
 

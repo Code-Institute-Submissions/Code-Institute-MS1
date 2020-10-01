@@ -415,8 +415,11 @@ body {
 }
 
 .day-pass {
-    background-color: #78716C;
+    color: #78716C;
+    background-color: #fafafa;
     border-radius: 25px;
+    border: 1px solid #78716C;
+    box-shadow: 2px 4px #78716C;
 }
 
 .member {
@@ -430,7 +433,7 @@ body {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 300;
-    text-shadow: 1px 1px #e64d00;
+    text-shadow: 1px 1px #a0968f;
     padding: 0 0 0 15px;
 }
 
