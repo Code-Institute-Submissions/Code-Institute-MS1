@@ -308,7 +308,7 @@ body {
     border-radius: 25px;
 } 
 
-.button-info button {
+.button-info a {
     margin: 30px 0 0 0;
 }
 /*--------------- Footer */
@@ -323,10 +323,30 @@ body {
     align-items: center;
     transition: all 0.5s ease;
     margin: 0px;
+    padding-top: 10px;
+}
+
+.facebook,
+.twitter,
+.instagram {
+    color: #fafafa;
+    padding: 5px;
+}
+
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
+    color: #f18149;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sign-up-prompt{
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .sign-up-prompt h2,
@@ -386,7 +406,6 @@ body {
     background-color: #e64d00;
     min-width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
     padding: 10px 15px 10px 15px ;
@@ -401,6 +420,24 @@ body {
     font-weight: 300;
 }
 
+.facebook,
+.twitter,
+.instagram {
+    color: #fafafa;
+    padding: 5px;
+}
+
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
+    color: #f18149;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*--------------- join.html section part 2 */
 .climb {
     padding: 0 0 15px 0;
@@ -419,7 +456,6 @@ body {
     background-color: #fafafa;
     border-radius: 25px;
     border: 1px solid #78716C;
-    box-shadow: 2px 4px #78716C;
 }
 
 .member {

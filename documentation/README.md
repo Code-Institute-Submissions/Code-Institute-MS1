@@ -11,15 +11,14 @@ I have decided to make a mock website for an imaginary climbing gym. Designed to
 ## User Stories
 
 - First Time Visitor
-    - I want a first visitor to to easily understand the purpose of the site and learn about the gym and it's specifications.
-    - Tgey should also to be able to navigate through the site with ease and find the content they need. <- Including Social Media
+    - When I visit this site I want to easily understand the purpose of the site and learn about the gym and it's specifications.
+    - I would also like to be able to navigate through the site with ease and find the content I need such as the gyms location.
+    - I may want to contact the gym to ask questions about courses/classes or about the gym in general.
 - Returning Visitor
-    - A returning visitor may want to learn more about the gym by signing up to the email newsletter or find social links if they didn't follow the first time.
-    - I would also want a returning visitor to be considering membership, so finding that page smoothly and seeing the membership sign up button easily would be ideal.
-    - They may also want to find the contact us button so any questions about the gym can be answered.
+    - As a returning visitor I might be looking to signing up to the newsletter or find social links so I can keep up with events.
+    - I may also be considering membership, so finding that page smoothly and seeing the membership sign up button easily would be ideal.
 - Frequent User
-    - I can't image someone frequently using this website. But if they were going to it may be for booking courses especially 1 to 1 sessions.
-    - They may also be looking for its location which is easily accesible from the home page.
+    - As a frequent user I use the site to book courses especially 1 to 1 sessions.
 
 ## Design
 
