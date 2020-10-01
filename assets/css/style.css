@@ -69,6 +69,12 @@ body {
     color: #e64d00;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #e64d00;
+}
+
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary.focus,
@@ -157,7 +163,7 @@ body {
 }
 /*--------------- index.html section Part 1 */
 
-.hero-background-one {
+.hero-background {
     background: url("../images/orangeclimb1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -399,8 +405,8 @@ body {
     box-shadow: 0 0 0 .2rem rgba(216,217,219,.5);
 }
 
-/*--------------- join.html */
-/*--------------- join.html section part 1 */
+/*--------------- climb.html */
+/*--------------- climb.html section part 1 */
 
 .join-us-background {
     background-color: #e64d00;
@@ -438,7 +444,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-/*--------------- join.html section part 2 */
+/*--------------- climb.html section part 2 */
 .climb {
     padding: 0 0 15px 0;
 }
@@ -518,7 +524,7 @@ body {
     border-radius: 25px;
 }
 /*--------------- classes.html */
-/*--------------- classes.html section part 1 ^ Can inherit from join.html css */
+/*--------------- classes.html section part 1 ^ Can inherit from climb.html css */
 
 /*--------------- classes.html section part 2 */
 
@@ -613,6 +619,60 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/*--------------- contact.html */
+/*--------------- contact.html section part 1 ^ Can inherit from climb.html css */
+
+/*--------------- contact.html section part 2 */
+
+.contact-background {
+    background: url("../images/blueclimb1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    min-width: 100%;
+    background-position-y: 50%;
+}
+
+.contact-cover{
+    padding: 30px 0 0 0;
+}
+
+.contact-cover h2 {
+    font-weight: 300;
+    font-size: 3em;
+}
+
+
+/*--------------- contact.html section part 3 */
+
+.form-header {
+    color: #e64d00;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    color:#78716c;
+    padding: 10px 0 20px 0;
+}
+
+.form-label {
+    padding: 10px 0 0 0;
+}
+
+textarea.form-control {
+    height: 204px;
+}
+
+.contact-button {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
 /*--------------- Media Screen Size Adjustments */
 
 @media screen and (max-width:943px){
@@ -630,6 +690,11 @@ body {
         .instructor {
             opacity: 1;
             }
+
+        .contact-background {
+            background-position-x: 10%;
+            
+        }
 }
 
 @media screen and (max-width:700px){
@@ -646,5 +711,10 @@ body {
         .one-two-one,
         .instructor {
             opacity: 1;
-            }
+        }
+
+        .contact-background {
+            background-position-x: 10%;
+            
+        }
 }

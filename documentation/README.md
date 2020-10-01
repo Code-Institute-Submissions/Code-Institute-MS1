@@ -36,6 +36,7 @@ I have decided to make a mock website for an imaginary climbing gym. Designed to
         - [Home Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/index.html.png)
         - [Climb Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/membership.html.png)
         - [Classes Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/classes.html.png)
+        - [Contact Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/contact_us.html.png)
 
 ## Languages
 

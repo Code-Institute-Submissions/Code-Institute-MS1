@@ -51,12 +51,42 @@
 	</header>
 	<section>
 		<!--Section part 1-->
-		<div class="container join-us-background">
+		<div class="container join-us-background"> <!-- We borrow CSS from the join section (climb section)-->
 			<div class="join-cover-text">
 				<h2>Contact Us</h2>
 			</div>
 		</div>
 		<!--Section part 2-->
+        <div class="container contact-background">
+			<div class="contact-cover">
+				<h2 class="contact-message">We Look Forward To<br>Hearing From You</h2>
+			</div>
+		</div>
+        <!--Section part 3-->
+        <div class="container">
+            <form>
+                <div class="container">
+                    <h2 class="form-header">Send Us A Message</h2>
+                    <div class="row contact-form">
+                        <div class="col-lg-6 form-group">
+                            <label for="fname" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="fname">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                            <div class="contact-button">
+                                <button type="submit" class="btn btn-light mt-2">Submit!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
 	</section>
 	<footer>
 		<div class="row footer">
@@ -73,7 +103,7 @@
 					<div class="form-group mx-sm-3 mb-2">
 						<label class="sr-only">Email</label>
 						<input type="email" class="form-control" placeholder="Email" required>
-                        </div>
+                    </div>
 						<button type="submit" class="btn btn-danger mb-2">Sign Up</button>
 				</form>
 			</div>
