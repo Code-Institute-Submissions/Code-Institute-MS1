@@ -69,6 +69,16 @@ I have decided to make a mock website for an imaginary climbing gym. Designed to
 - So far testing has been on safari & firefox but chrome will be used shortly.
 - The website was viewed on a variety of devices such as Laptop, Iphone, Ipad.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+## Mentor Meeting Changes
+
+- Footer had extended margin which was causing a horizontal scroll bar.
+- Location info box on homepage was possibly an off-putting color. So was changed to white with sandstone colored border.
+- Organise folders and add documentation folder, remove any media not being used.
+- Add social media icons used in header to the footer.
+- Create contact page to link any membership or classes buttons to so they are not dead links.
+- README: User stories from the visitor perspective. + Testing section.
+- Deploy on Github.
  
 
 ## Taking The Project Further
