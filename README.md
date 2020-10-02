@@ -4,7 +4,7 @@ Welcome S-Lowes,
 
 I have decided to make a mock website for an imaginary climbing gym. Designed to be eye catching, responsive & accesible on different devices.
 
-![Multi-Device MockUp](assets/images/multimedia.png)
+![Multi-Device MockUp](documentation/images/multimedia.png)
 
 # User Experience
 
