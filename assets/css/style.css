@@ -57,6 +57,10 @@ body {
 }
 
 /*--------------- Bootstrap Dropdown Button + Items (Took me awhile to find the active conditions)*/
+/*-- error here */
+.btn-light:not(:disabled):not(.disabled).active:focus, .btn-light:not(:disabled):not(.disabled):active:focus, .show > .btn-light.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(3, 231, 3, 0.959);
+}
 
 .btn-secondary {
     display: flex;
