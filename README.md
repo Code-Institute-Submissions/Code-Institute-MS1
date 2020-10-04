@@ -1,14 +1,12 @@
-Welcome S-Lowes,
-
 # MS1 Code Institute
 
-I have decided to make a mock website for an imaginary climbing gym. Designed to be eye catching, responsive & accesible on different devices.
+This is a website for Sandstone the climbing gym. Designed to be eye catching, responsive & accesible on different devices.
 
 ![Multi-Device MockUp](documentation/images/multimedia.png)
 
-# User Experience
+## User Experience
 
-## User Stories
+### User Stories
 
 - First Time Visitor
     - When I visit this site I want to easily understand the purpose of the site and learn about the gym and it's specifications.
@@ -20,7 +18,7 @@ I have decided to make a mock website for an imaginary climbing gym. Designed to
 - Frequent User
     - As a frequent user I use the site to book courses especially 1 to 1 sessions.
 
-## Design
+### Design
 
 - Color Scheme
     - Used a color called 'Sandstone" #786D5F since that was the theme. I also used an orange to accompany it and match some of the photos I managed to include. I finally used a white as I had used it in my logo.
@@ -38,12 +36,44 @@ I have decided to make a mock website for an imaginary climbing gym. Designed to
         - [Classes Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/classes.html.png)
         - [Contact Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/contact_us.html.png)
 
-# Languages
+## Features
+
+- Website should be responsive across differetn devices.
+- Have some interactive elements such as the buttons, dropdown menu and google map.
+
+### Taking The Project Further
+
+If I were taking the project further there are some features I believe would benefit the website and add more functionality to it.
+- Adding a check-out screen for when customers sign-up for membership.
+- Having a system where a customer can view time slots on a calender when booking onto classes.
+- The website would also benefit from a scrolling news section on the homepage.
+
+## Technologies
+
+### Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-# Testing
+### Frameworks, Libraries & Programs Used
+
+- [Bootstrap4.5.2](https://getbootstrap.com/): Responsiveness & style.
+
+- [Hover.css](http://ianlunn.github.io/Hover/): Skew & Grow by Ian Lunn used in header.
+
+- [Gitpod](https://www.gitpod.io/): Code written with Gitpod and used for version control via the terminal to commit to Git and Push to GitHub.
+
+- [Github](https://github.com/): GitHub is used to store the project after being pushed from Git.
+
+- [Google Fonts](https://fonts.google.com/?query=Oswa): Google fonts was used to import the 'Montserrat' & 'Roboto' font.
+
+- [Google Map](https://www.google.co.uk/maps): Embeded.
+
+- [Font Awesome](https://fontawesome.com/): Font Awesome was used on various pages to add icons.
+
+- [Balsamiq](https://balsamiq.com/): Balsamiq was used to create the wireframes during the design process.
+
+## Testing
 
 - First Time Visitor
     - When I visit this site I want to easily understand the purpose of the site and learn about the gym and it's specifications.
@@ -64,55 +94,57 @@ I have decided to make a mock website for an imaginary climbing gym. Designed to
     - As a frequent user I use the site to book courses especially 1 to 1 sessions.
         1. This can be accessed from the 'Classes" classes.html page.
 
-## Further Testing
+### Further Testing
 
-- So far testing has been on safari & firefox but chrome will be used shortly.
+- So far testing has been on safari, firefox and chrome.
 - The website was viewed on a variety of devices such as Laptop, Iphone, Ipad.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-## Mentor Meeting Changes
+### Known Bugs
+
+- On mobile our buttons used to navigate the website have a white transparent overlay.
+
+### Mentor Feedback
 
 - Footer had extended margin which was causing a horizontal scroll bar.
-- Location info box on homepage was possibly an off-putting color. So was changed to white with sandstone colored border.
+- Location information box on index.html was possibly an off-putting color. This was changed to white with sandstone colored border.
 - Organise folders and add documentation folder, remove any media not being used.
 - Add social media icons used in header to the footer.
 - Create contact page to link any membership or classes buttons to so they are not dead links.
-- README: User stories from the visitor perspective. + Testing section.
+- README: User stories from the visitor perspective + Testing section.
 - Deploy on Github.
- 
+- Shadow on Map for different media screens needs to flip to the other side.
 
-## Taking The Project Further
+## Deployment
+
+### Github Pages
+
+The project was deployed to GitHub Pages using the following steps:
+
+- Log in to GitHub and locate the GitHub Repository.
+- At the top of the Repository find the "Settings" Button on the menu.
+- Scroll down the Settings page until you locate the "GitHub Pages" Section.
+- Under "Source", click the dropdown called "None" and select "Master Branch".
+- For the folder selection we selected "Root".
+- The page will automatically refresh.
+- Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 
-# Credits
+## Credits
 
-## Technologies & Code Credit
+### Code & Media
 
 The space to share any rescources I have used to help me build this project.
 
-- [Gitpod](https://www.gitpod.io/): Code written with Gitpod and used for version control via the terminal to commit to Git and Push to GitHub.
-
-- [Github](https://github.com/): GitHub is used to store the project after being pushed from Git.
-
-- [Google Fonts](https://fonts.google.com/?query=Oswa): Google fonts was used to import the 'Montserrat' & 'Roboto' font.
-
-- [Font Awesome](https://fontawesome.com/): Font Awesome was used on various pages to add icons.
-
 - [Bootstrap4.5.2](https://getbootstrap.com/): Bootstrap Library used throughout the project.
-
-- [Google Map](https://www.google.co.uk/maps): Embeded.
 
 - [Logo created on ucraft](https://www.ucraft.com/free-logo-maker): Also used in header.
 
-- [Hover.css](http://ianlunn.github.io/Hover/): Skew & Grow by Ian Lunn used in header.
-
 - [Multi Media Mockup](https://techsini.com/multi-mockup/): For the README.
-
-- [Balsamiq](https://balsamiq.com/): Balsamiq was used to create the wireframes during the design process.
 
 - [Unsplash](https://unsplash.com/) & [Pexels](https://www.pexels.com/): Used both these websites to find free images, Unsplash was most useful.
 
-# Acknowledgements
+### Acknowledgements
 
 - My Mentor for the helpful feedback.
 - Tutor support at Code Institute for their support.
