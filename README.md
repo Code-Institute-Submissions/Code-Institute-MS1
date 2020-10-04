@@ -43,7 +43,7 @@ This is a website for Sandstone the climbing gym. Designed to be eye catching, r
 
 ### Taking The Project Further
 
-If I were taking the project further there are some features I believe would benefit the website and add more functionality to it.
+If I were taking the project further there are some features I believe would benefit the website and add more functionality to it:
 - Adding a check-out screen for when customers sign-up for membership.
 - Having a system where a customer can view time slots on a calender when booking onto classes.
 - The website would also benefit from a scrolling news section on the homepage.
@@ -74,6 +74,10 @@ If I were taking the project further there are some features I believe would ben
 - [Balsamiq](https://balsamiq.com/): Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of this project. This ensures there were no syntax errors in the project.
+
+### Testing User Stories
 
 - First Time Visitor
     - When I visit this site I want to easily understand the purpose of the site and learn about the gym and it's specifications.
