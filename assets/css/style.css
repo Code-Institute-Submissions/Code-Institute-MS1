@@ -669,7 +669,7 @@ textarea.form-control {
 
 .contact-button {
     display: flex;
-    align-items: right;
+    align-items: inherit;
     justify-content: right;
 }
 
@@ -724,4 +724,5 @@ textarea.form-control {
         
         .map-background {
             box-shadow: 2px 4px #78716C;
+        }
 }
