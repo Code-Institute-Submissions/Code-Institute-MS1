@@ -1,6 +1,6 @@
 # MS1 Code Institute
 
-This is a website for Sandstone the climbing gym. Designed to be eye catching, responsive & accesible on different devices.
+This is a website for Sandstone the climbing gym. Designed to be eye-catching, responsive & accessible on different devices.
 
 ![Multi-Device MockUp](documentation/images/multi-device.png)
 
@@ -10,13 +10,13 @@ This is a website for Sandstone the climbing gym. Designed to be eye catching, r
 
 - First Time Visitor
     - When I visit this site I want to easily understand the purpose of the site and learn about the gym and it's specifications.
-    - I would also like to be able to navigate through the site with ease and find the content I need such as the gyms location.
-    - I may want to contact the gym to ask questions about courses/classes or about the gym in general.
+    - I would also like to be able to navigate through the site with ease and find the content I need such as the location of the gym.
+    - I may want to contact the gym to ask questions about courses/classes or the gym in general.
 - Returning Visitor
     - As a returning visitor I might be looking to sign up to the newsletter or find social links so I can keep up with events.
     - I may also be considering membership, so finding that page smoothly and seeing the membership sign up button easily would be ideal.
 - Frequent User
-    - As a frequent user I use the site to book courses especially 1 to 1 sessions.
+    - As a frequent user I use the site to book courses especially the 1 to 1 session.
 
 ### Design
 
@@ -24,13 +24,13 @@ This is a website for Sandstone the climbing gym. Designed to be eye catching, r
     - Used a color called 'Sandstone" #786D5F since that was the theme. I also used an orange to accompany it and match some of the photos I managed to include. I finally used a white as I had used it in my logo.
 
 - Typography
-    - The Montserrat font is the main font used with Roboto as a secondary font. The fallback font in case for any reason the font isn't being imported into the site correctly is sans-serif.
+    - The Montserrat font is the main font used with Roboto as a secondary font. If the font isn't being imported into the site correctly the fallback is sans-serif.
 
 - Imagery
     - I think having images of people using the gym is a useful way to show the equipment available but also to make the website more appealing.
 
 - Wireframes
-    - I created Wireframes for various extra pages such as membership forms and an about us page. However these extra pages and are not core to the websites design so are not included.
+    - I created Wireframes for various extra pages such as membership forms and an about us page. However, these extra pages and are not core to the design of the website so are not included.
         - [Home Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/index.html.png)
         - [Climb Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/membership.html.png)
         - [Classes Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/classes.html.png)
@@ -38,14 +38,14 @@ This is a website for Sandstone the climbing gym. Designed to be eye catching, r
 
 ## Features
 
-- Website should be responsive across differetn devices.
-- Have some interactive elements such as the buttons, dropdown menu and google map.
+- The website should be responsive across different devices.
+- Have some interactive elements such as the buttons, dropdown menu, and google map.
 
 ### Taking The Project Further
 
 If I were taking the project further there are some features I believe would benefit the website and add more functionality to it:
-- Adding a check-out screen for when customers sign-up for membership.
-- Having a system where a customer can view time slots on a calender when booking onto classes.
+- Adding a check-out screen for when customers sign-up for a membership.
+- Having a system where a customer can view time slots on a calendar when booking onto classes.
 - The website would also benefit from a scrolling news section on the homepage.
 
 ## Technologies
@@ -61,11 +61,11 @@ If I were taking the project further there are some features I believe would ben
 
 - [Hover.css](http://ianlunn.github.io/Hover/): Skew & Grow by Ian Lunn used in header.
 
-- [Gitpod](https://www.gitpod.io/): Code written with Gitpod and used for version control via the terminal to commit to Git and Push to GitHub.
+- [Gitpod](https://www.gitpod.io/): Code is written with Gitpod and used for version control via the terminal to commit to Git and push to GitHub.
 
 - [Github](https://github.com/): GitHub is used to store the project after being pushed from Git.
 
-- [Google Fonts](https://fonts.google.com/?query=Oswa): Google fonts was used to import the 'Montserrat' & 'Roboto' font.
+- [Google Fonts](https://fonts.google.com/?query=Oswa): Were used to import the 'Montserrat' & 'Roboto' font.
 
 - [Google Map](https://www.google.co.uk/maps): Embeded.
 
@@ -77,16 +77,20 @@ If I were taking the project further there are some features I believe would ben
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of this project. This ensures there were no syntax errors in the project.
 
+
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](documentation/images/html-valid.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](documentation/images/css-valid.png)
+
 ### Testing User Stories
 
 - First Time Visitor
     - When I visit this site I want to easily understand the purpose of the site and learn about the gym and it's specifications.
         1. Upon entering the site the user will see the banner image which should convey what the site is about.
         1. Scrolling down a little they will see a list of the services the gym provides such as the # of climbing routes.
-        1. The user then has a few call to action buttons, one urging them to come and climb and the other asking if they would like to get in touch.
-    - I would also like to be able to navigate through the site with ease and find the content I need such as the gyms location.
+        1. The user then has a few buttons prompting a call to action, one urging them to come and climb and the other asking if they would like to get in touch.
+    - I would also like to be able to navigate through the site with ease and find the content I need such as the location of the gym.
         1. The gym's location is easily found on the home page thanks to google maps.
-    - I may want to contact the gym to ask questions about courses/classes or about the gym in general.
+    - I may want to contact the gym to ask questions about courses/classes or the gym in general.
         1. The 'Contact Us' button that leads to the contact.html page is alongside the map.
 - Returning Visitor
     - As a returning visitor I might be looking to sign up to the newsletter or find social links so I can keep up with events.
@@ -95,26 +99,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate al
     - I may also be considering membership, so finding that page smoothly and seeing the membership sign up button easily would be ideal.
         1. The membership page can be found from the 'Climb with us' button and also from the header 'Climb".
 - Frequent User
-    - As a frequent user I use the site to book courses especially 1 to 1 sessions.
+    - As a frequent user I use the site to book courses especially the 1 to 1 session.
         1. This can be accessed from the 'Classes" classes.html page.
 
 ### Further Testing
 
-- So far testing has been on safari, firefox and chrome.
-- The website was viewed on a variety of devices such as Laptop, Iphone, Ipad.
+- So far testing has been on safari, firefox, and chrome.
+- The website was viewed on a variety of devices such as a Laptop, iPhone, and Ipad.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
-- On mobile our buttons used to navigate the website have a white transparent overlay.
+- On mobile, our buttons used to navigate the website have a white transparent overlay.
 
 ### Mentor Feedback
 
-- Footer had extended margin which was causing a horizontal scroll bar.
-- Location information box on index.html was possibly an off-putting color. This was changed to white with sandstone colored border.
+- Footer had an extended margin which was causing a horizontal scroll bar.
+- Location information box on index.html was possibly an off-putting color. This was changed to white with a sandstone colored border.
 - Organise folders and add documentation folder, remove any media not being used.
-- Add social media icons used in header to the footer.
-- Create contact page to link any membership or classes buttons to so they are not dead links.
+- Add the social media icons used in the header to the footer.
+- Create a contact page to link to any membership or class buttons so they are not dead links.
 - README: User stories from the visitor perspective + Testing section.
 - Deploy on Github.
 - Shadow on Map for different media screens needs to flip to the other side.
@@ -126,7 +130,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate al
 The project was deployed to GitHub Pages using the following steps:
 
 - Log in to GitHub and locate the GitHub Repository.
-- At the top of the Repository find the "Settings" Button on the menu.
+- At the top of the Repository find the "Settings" button on the menu.
 - Scroll down the Settings page until you locate the "GitHub Pages" Section.
 - Under "Source", click the dropdown called "None" and select "Master Branch".
 - For the folder selection we selected "Root".
@@ -138,7 +142,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 ### Code & Media
 
-The space to share any rescources I have used to help me build this project.
+The space to share any resources I have used to help me build this project.
 
 - [Bootstrap4.5.2](https://getbootstrap.com/): Bootstrap Library used throughout the project.
 
