@@ -520,7 +520,7 @@ body {
     border-radius: 25px;
 }
 /*--------------- classes.html */
-/*--------------- classes.html section part 1 ^ Can inherit from climb.html css */
+/*--------------- classes.html section part 1 ^ Can inherit from climb.html css, ie. We use the same class */
 
 /*--------------- classes.html section part 2 */
 
@@ -693,7 +693,7 @@ textarea.form-control {
         }
 
         .map-background {
-            box-shadow: 2px 4px #78716C;
+            box-shadow: 2px 4px #78716C; /*-- Flippin the shadow since it stacks on smaller devices --*/
 }
 }
 

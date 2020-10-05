@@ -111,7 +111,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate al
 
 - So far testing has been on safari, firefox, and chrome.
 - The website was viewed on a variety of devices such as a Laptop, iPhone, and Ipad.
-- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+- Friends and family members were asked to explore the site and documentation to point out any bugs or issues they spot.
 
 ### Known Bugs
 
