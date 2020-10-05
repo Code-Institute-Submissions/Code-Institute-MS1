@@ -78,8 +78,8 @@ If I were taking the project further there are some features I believe would ben
 The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of this project. This ensures there were no syntax errors in the project.
 
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Results](documentation/images/html-valid.png)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](documentation/images/css-valid.png)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/S-Lowes/Code-Institute-MS1/blob/master/documentation/images/html-valid.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/S-Lowes/Code-Institute-MS1/blob/master/documentation/images/css-valid.png)
 
 ### Testing User Stories
 
