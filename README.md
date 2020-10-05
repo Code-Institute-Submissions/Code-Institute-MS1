@@ -2,7 +2,7 @@
 
 This is a website for Sandstone the climbing gym. Designed to be eye catching, responsive & accesible on different devices.
 
-![Multi-Device MockUp](documentation/images/multimediadisplay.png)
+![Multi-Device MockUp](documentation/images/multi-device.png)
 
 ## User Experience
 
