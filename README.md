@@ -25,16 +25,21 @@ This is a website for Sandstone the climbing gym. Designed to be eye-catching, r
 
 - Typography
     - The Montserrat font is the main font used with Roboto as a secondary font. If the font isn't being imported into the site correctly the fallback is sans-serif.
-
 - Imagery
     - I think having images of people using the gym is a useful way to show the equipment available but also to make the website more appealing.
 
 - Wireframes
     - I created Wireframes for various extra pages such as membership forms and an about us page. However, these extra pages and are not core to the design of the website so are not included.
         - [Home Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/index.html.png)
+            1. I moved the section describing what equipment the gym had above the map as I believe it is initially more important.
         - [Climb Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/membership.html.png)
+            1. I made a few changes to this page. I included the equipment rental costs in the non-membership section to help reinforce the benefits of membership.
+            1. I also decided to use a vertical image to try a different style especially since it was a really good picture to show off the height of the climbing walls.
         - [Classes Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/classes.html.png)
+            1. I also made changes to this page. The text that becomes visible on mouse hover did a good job of describing the classes so I felt like I didn't need the banner.
+            1. Also, since I was using an image for each class box I felt like I would overload the viewer with images if I also had a giant banner image.
         - [Contact Page](/workspace/Code-Institute-MS1/documentation/ms1-wireframe/contact_us.html.png)
+            1. Made no substantial changes to this design.
 
 ## Features
 
