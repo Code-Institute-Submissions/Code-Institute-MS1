@@ -1,4 +1,4 @@
-# MS1 Code Institute
+<h1 align="center">MS1</h1>
 
 This is a website for Sandstone the climbing gym. Designed to be eye-catching, responsive & accessible on different devices.
 
@@ -57,21 +57,21 @@ If I were taking the project further there are some features I believe would ben
 
 ### Frameworks, Libraries & Programs Used
 
-- [Bootstrap4.5.2](https://getbootstrap.com/): Responsiveness & style.
+1. [Bootstrap4.5.2](https://getbootstrap.com/): Responsiveness & style.
 
-- [Hover.css](http://ianlunn.github.io/Hover/): Skew & Grow by Ian Lunn used in header.
+1. [Hover.css](http://ianlunn.github.io/Hover/): Skew & Grow by Ian Lunn used in header.
 
-- [Gitpod](https://www.gitpod.io/): Code is written with Gitpod and used for version control via the terminal to commit to Git and push to GitHub.
+1. [Gitpod](https://www.gitpod.io/): Code is written with Gitpod and used for version control via the terminal to commit to Git and push to GitHub.
 
-- [Github](https://github.com/): GitHub is used to store the project after being pushed from Git.
+1. [Github](https://github.com/): GitHub is used to store the project after being pushed from Git.
 
-- [Google Fonts](https://fonts.google.com/?query=Oswa): Were used to import the 'Montserrat' & 'Roboto' font.
+1. [Google Fonts](https://fonts.google.com/?query=Oswa): Were used to import the 'Montserrat' & 'Roboto' font.
 
-- [Google Map](https://www.google.co.uk/maps): Embeded.
+1. [Google Map](https://www.google.co.uk/maps): Embeded.
 
-- [Font Awesome](https://fontawesome.com/): Font Awesome was used on various pages to add icons.
+1. [Font Awesome](https://fontawesome.com/): Font Awesome was used on various pages to add icons.
 
-- [Balsamiq](https://balsamiq.com/): Balsamiq was used to create the wireframes during the design process.
+1. [Balsamiq](https://balsamiq.com/): Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
@@ -144,13 +144,13 @@ The project was deployed to GitHub Pages using the following steps:
 
 The space to share any resources I have used to help me build this project.
 
-- [Bootstrap4.5.2](https://getbootstrap.com/): Bootstrap Library used throughout the project.
+1. [Bootstrap4.5.2](https://getbootstrap.com/): Bootstrap Library used throughout the project.
 
-- [Logo created on ucraft](https://www.ucraft.com/free-logo-maker): Also used in header.
+1. [Logo created on ucraft](https://www.ucraft.com/free-logo-maker): Also used in header.
 
-- [Multi Media Mockup](https://techsini.com/multi-mockup/): For the README.
+1. [Multi Media Mockup](https://techsini.com/multi-mockup/): For the README.
 
-- [Unsplash](https://unsplash.com/) & [Pexels](https://www.pexels.com/): Used both these websites to find free images, Unsplash was most useful.
+1. [Unsplash](https://unsplash.com/) & [Pexels](https://www.pexels.com/): Used both these websites to find free images, Unsplash was most useful.
 
 ### Acknowledgements
 
